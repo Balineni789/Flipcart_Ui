@@ -1,7 +1,7 @@
 
 .logo {
    height: 40px;
-   margin-top: 10px;
+   margin-top: 17px;
    margin-right: auto;
 }
 
@@ -94,7 +94,6 @@ nav ul li a {
 nav ul a {
    text-decoration: none;
 }
-
 
 .hover-container {
   position: relative;

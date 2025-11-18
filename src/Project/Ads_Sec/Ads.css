@@ -1,0 +1,70 @@
+
+  .ads-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 14px;
+    margin-top: -6px;
+    max-width: 1350px;
+    box-sizing: border-box;
+  }
+
+  .ads-carousel {
+    width: 100%;
+    position: relative;
+  }
+
+  .ads-viewport {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+
+  .ads-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 700ms ease-in-out;
+  }
+
+  .ads-img.active {
+    opacity: 1;
+  }
+
+  .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    width: 43px;
+    z-index: 10;
+    border: none;
+    height: 90px;
+    display: flex;
+    color: #999;
+    cursor: pointer;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    transform: translateY(-50%);
+    transition: color 0.3s ease;
+  }
+
+  .carousel-arrow:hover {
+    color: #333;
+  }
+
+  .left-arrow {
+    left: 8px;
+  }
+
+  .right-arrow {
+    right: 8px;
+  }
+
+  
