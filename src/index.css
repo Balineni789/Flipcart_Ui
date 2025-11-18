@@ -1,0 +1,32 @@
+
+:root {
+   --nav-height: 60px;
+}
+
+body {
+	margin: 0px 3px; 
+	min-height: 100vh;
+	box-sizing: border-box;
+	background: #f7fbff;
+	padding-top: calc(var(--nav-height) + 16px);
+}
+
+/* html, body, #root {
+	height: 100%;
+} */
+
+/* h2 {
+  font-size: 34px;
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+} */
+
+/* .container {
+    display: flex;
+	margin: 0 auto;
+	padding: 0 16px;
+	max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+}  */

@@ -1,0 +1,275 @@
+
+.fi_img {
+    margin: auto;
+    height: 583px;
+    width : 430px;
+    display: block;
+    object-fit: cover; 
+} 
+
+.Main_cont {
+    gap: 17px;
+    padding: 0;
+    width: auto;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-right: 16px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.cont_sty {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 584px;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2px;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 1px solid rgba(0,0,0,0.06);
+    background-color: rgba(255,255,255,0.9); 
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.cont_sty:nth-child(1) {
+    grid-column: span 2;
+}
+
+.cont_sty:nth-child(2) {
+    grid-column: span 2;
+}
+
+.cont_sty:nth-child(3) {
+    grid-column: span 2;
+}
+
+.cont_sty:nth-child(4) {
+    grid-column: span 2;
+}
+
+.cont_sty:nth-child(5) {
+    grid-column: span 2;
+}
+
+.cont_sty:nth-child(6) {
+    grid-column: span 2;
+}
+
+.cont_sty h3 {
+    margin: 0;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    position: static;
+    padding: 25px 20px;
+}
+
+.Mc {
+  flex: 1;
+  margin: 0;
+  gap: 12px;
+  top: -15px;
+  width: 100%;
+  display: grid;
+  padding: 22px 10px; 
+  position: relative;
+  box-sizing: border-box;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img_wrapper {
+  width: 100%;
+  padding: 9px; 
+  display: flex;
+  cursor: pointer;
+  border-radius: 2px;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  background-color: #f9f9f9;
+  border: 1.5px solid #e8e8e8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.img_wrapper:hover {
+  border-color: #d0d0d0;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.Mc img {
+  width: 100%;
+  height: 160px; 
+  display: block;
+  padding: 8px 0px;
+  object-fit: contain;
+}
+
+.Mc img:hover {
+  border-color: #d0d0d0;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.product_name {
+  width: 100%;
+  color: #000;
+  margin: 5px 0px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.product_name:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+.product_names {
+  margin: 0;
+  width: 100%;
+  color: #000;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.product_names:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+
+
+.Main_cont2 {
+    width: 97.3%;
+    height: 305px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.06);
+    background-color: rgba(255,255,255,0.9);  
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.fr3 {
+  margin: 20px;
+  font-size: 24px;
+}
+
+.Furn_deals {
+   gap: 65px;
+   display: flex;
+   margin: 0px 10px;
+   margin-top: 34px;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.Furn_deals > div {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Furn_deals img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.Furn_deals img:hover {
+    cursor: pointer;
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.Nxt_Btnf {
+    top: 50%;
+    padding: 0;
+    right: -2px;
+    width: 38px;
+    z-index: 10;
+    opacity: 0.6;
+    border: none;
+    height: 90px;
+    display: flex;
+    color: #999;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    transition: color 0.3s ease;
+    background-color: lightgray;
+}
+
+.Nxt_Btnf:hover {
+    opacity: 0.8;
+    color: #333;
+    background-color: lightgrey;
+}
+
+.Nxt_Icon {
+    top: 25px;
+    right: 25px;
+    display: flex;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 3px 8px;
+    border-width: 0px;
+    position: absolute;
+    align-items: center;
+    border-radius: 45px;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: blue;
+}
+
+.img_Txtf {
+    top: 4px;
+    gap: 130px;
+    display: flex;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.img_Txtf:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.img_Txtf2 {
+    gap: 130px;
+    top: 6px;
+    display: flex;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.img_Txtf2:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+

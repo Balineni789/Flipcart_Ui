@@ -1,0 +1,110 @@
+
+.Btm_Foot1 {
+    gap: 34px;
+    width: 100%;
+    height: 380px;
+    color: white;
+    margin-left: -3px;
+    background-color: black;
+}
+
+.Btm_Foot2 {
+    gap: 35px;
+    display: flex;
+    margin-left: 56px;
+}
+
+.head_Txt {
+    width: 140px;
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 13.4px;
+    color: #fff;
+    display: block;
+    line-height: 6px;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+}
+
+p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Sp1 {
+    font-size: 12px;
+    color: #fff;
+    display: block;
+    line-height: 6.8px;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+}
+
+.Sp1:hover {
+    text-decoration: none;
+}
+
+.vr {
+    height: 215px;
+    margin-top: 40px;
+    margin-left: 0px;
+    padding-left: 30px;
+    border-left: 1px solid #454d5e;
+}
+
+.MT {
+    display: flex;
+    margin-left: -35px;
+}
+
+.mt {
+    margin-left: 20px;
+}
+
+.Social_Icons {
+    gap: 15px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.Social_Icons img:hover {
+    opacity: 0.8;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.btm_sec {
+  display: block;
+ flex-direction: inline;
+} 
+
+hr {
+  border: none;
+  height: 1px;
+  margin-top: 40px;
+  background-color: grey;
+}
+
+.Txt_Foot {
+    gap: 68px;
+    display: flex;
+    color: white;
+    margin: 30px 50px;
+    white-space: nowrap;
+}
+
+.Txt_Foot .footer-item {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.Txt_Foot p:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+

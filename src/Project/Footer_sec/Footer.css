@@ -1,0 +1,33 @@
+
+.Mc1_Txt {
+   margin: 0px 18px;
+   padding: 0px 12px;
+   margin-top: 110px;
+}
+
+.Mc_Txt {
+   opacity: 0.6;
+   font-size: 21px;
+   font-weight: bold;
+}
+
+.heading_Txt {
+    opacity: 0.8;
+    font-size: 17px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 2px;
+}
+
+.Text {
+    opacity: 1.0;
+    color: gray;
+    margin-top: 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.Text:hover {
+    text-decoration: none;
+}
